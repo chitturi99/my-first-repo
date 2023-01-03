@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                eho 'Hello World'
             }
         }
     
@@ -20,7 +20,7 @@ pipeline {
         }
                 stage('release') {
             steps {
-                eco 'Sandeep'
+                echo 'Sandeep'
             }
         }
     
