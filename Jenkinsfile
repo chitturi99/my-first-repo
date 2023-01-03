@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-    }
+    
             stage('build') {
             steps {
                 echo 'Hello World'
@@ -23,7 +23,7 @@ pipeline {
                 eco 'Sandeep'
             }
         }
-    }
-    }
+    
+    
     }
 }
