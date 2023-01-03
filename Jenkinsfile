@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                eho 'Hello World'
+                echo 'Hello World'
             }
         }
     
             stage('build') {
             steps {
-                echo 'Hello World'
+                eho 'Hello World'
             }
         }
                 stage('deploy') {
