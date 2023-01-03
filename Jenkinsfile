@@ -10,7 +10,7 @@ pipeline {
     
             stage('build') {
             steps {
-                eho 'Hello World'
+                echo 'Hello World'
             }
         }
                 stage('deploy') {
