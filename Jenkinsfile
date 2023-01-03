@@ -8,4 +8,22 @@ pipeline {
             }
         }
     }
+            stage('build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+                stage('deploy') {
+            steps {
+                echo 'vamshi'
+            }
+        }
+                stage('release') {
+            steps {
+                eco 'Sandeep'
+            }
+        }
+    }
+    }
+    }
 }
